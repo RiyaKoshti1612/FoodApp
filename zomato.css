@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+header{
+    height: 60vh;
+    background: url(WhatsApp\ Image\ 2024-12-12\ at\ 9.48.24\ PM\ \(3\).jpeg);
+    background-size:cover;
+    background-position:center center;
+}
+
+#app{
+    display: flex;
+    gap: 5px;
+}
+
+#subhead{
+    height:72px;
+    /* background-color:red; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+    color:white;
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    gap:50px;
+    color:white;
+    font-size: 18px;
+}
+
+#logo_text_search{
+    /* border:3px solid green; */
+    display:flex;
+    flex-direction:column;
+    height:calc( 60vh - 72px );
+    align-items: center;
+}
+
+#logo img{
+    height:70px;
+    width:300px;
+    margin-bottom:30px ;
+}
+
+#text h2{
+    color:white;
+    margin-bottom:20px ;
+    font-weight:lighter;
+    font-size:xx-large;
+
+}
+
+#searchContainer{
+    background-color: #fff;
+    margin-top: 30px;
+    padding:15px 25px;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+}
+
+#searchContainer #location{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #cfcfcf;
+    padding-right: 10px;
+}
+
+#searchContainer input{
+    border: none;
+}
+
+#searchContainer #restorent{
+    margin-left: 20px;
+}
+
+#searchContainer #restorent span{
+    color: #c9c8c8;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-bottom: 40px;
+}
+
+.main-section{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+}
+
+.services{
+    width: 100%;
+    height: 240px;   
+    display: flex;
+    gap:20px;
+    /* border: 2px solid green; */
+    overflow: hidden;
+}
+
+.option{
+    position: relative; 
+    width:100%;
+    height:100%;
+    max-width: 33.33%;
+    overflow: hidden;
+    border-radius: 12px;
+
+}
+
+.option .image{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    
+}
+
+.option .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: bottom center;
+}
+
+.info{
+    /* border: 2px solid red; */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    border: 2px solid #eee;
+    /* border-radius: 0 0 12px 12px ; */
+    padding: 10px 20px 16px 20px;
+    line-height:30px;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+#collaction{
+    margin-top: 100px;
+    /* border: 2px solid red; */
+}
+
+#collaction h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #1c1c1c;
+}
+
+#col-description{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+#col-description p{
+    color: #363636;
+    font-size: 18px;
+}
+
+#col-description a{
+    color: #ff7e88;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#col-description i{
+    margin-left:10px;
+}
+
+#col-list{
+    display:flex ;
+    overflow: hidden;
+    gap:10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    height:320px;
+    width: 100%;
+    /* border:2px solid red; */
+}
+
+#col-option{
+    height: 100%;
+    width: 100%;
+    max-width: 25%;
+    position: relative;
+}
+
+#col-option #col-img{
+    height: 100%;
+    width: 100;
+}
+
+#col-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+
+#list-overlay{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+}
+
+#overlay-info{
+    position: absolute;
+    bottom: 0;
+    padding: 0 16px 10px 16px;
+}
+
+#overlay-info p{
+    color: #fff;
+    font-size: 18px;
+}
+
+#overlay-info a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#overlay-info i{
+    margin-left: 7px;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+#location-of-palce{
+    margin-top: 100px;
+    border: 2px solid green;
+}
+
+#place-title p{
+    font-size: 36px;
+    color: #363636;
+    margin-bottom: 40px;
+}
+
+#place-contener{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#places{
+    border: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 32%;
+    margin-bottom: 10px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+}
+
+#place-name h5{
+    color: #1c1c1c;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom:5px;
+}
+
+#place-name p{
+    color:#363636 ;
+    font-size:16px ;
+    font-weight: 400;
+}
+
+#see-more{
+    border: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 15px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 32%;
+    margin-bottom: 10px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+}
+
+#see-more p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right:10px;
+}
+#app-section{
+    background-color: #fffbf7;
+    padding-top:30px;
+}
+
+.app-container{
+    /* border: 2px solid red; */
+    width:100%;
+    max-width: 900px;
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container .mobile-imge{
+    /* border: 2px solid red; */
+
+    height: 100%;
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+.mobile-imge img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.app-info{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.app-info .app-title h2{
+    font-size: 44px;
+    color: #1c1c1c;
+    margin-bottom: 15px;
+}
+
+.app-info .app-title p{
+    font-size: 16px;
+    color: #363636;
+    margin-bottom: 25px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.app-option{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    
+}
+
+input[type="radio"]{
+    accent-color: #ef4f5f;
+    height:16px ;
+    width: 16px;
+    margin-right: 5px;
+}
+
+label{
+    font-size: 16px;
+    color: #1c1c1c;
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.input-container input{
+    padding: 13px 12px;
+    width: 100%;
+    /* height:48px; */
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    color:#1c1c1c;
+    border-radius: 6px;
+}
+
+.input-container button{
+    min-width: 150px;
+    border: none;
+    background-color: #ef4f5f;
+    border-radius: 6px;
+    padding: 0 16px;
+    font-size: 16px;
+    color:#fff;
+}
+
+.store-container p{
+    font-size: 14px;
+    margin-bottom:15px;
+    color:#9c9c9c;
+}
+
+.store-imge{
+    display: flex;
+    gap:20px;
+    
+}
+
+.store-imge img{
+    object-fit: cover;
+    width: 137px;
+    /* width: 100%; 
+    height: 100%;
+    background-position: center center;
+    background-size: cover; */
+}
+#explore-option{
+    /* border:2px solid red; */
+    margin:auto;
+    margin: 50px auto;
+    width: 1100px;
+}
+
+.text-pera{
+    font-size: 30px;
+    color: #363636;
+    margin-bottom: 20px;
+}
+
+.head-of-explore{
+    border:1px solid #9c9c9c;
+    border-radius:6px ;    
+    padding:20px 24px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.head-of-explore h5{
+    font-weight: 300;
+    font-size: 20px;
+}  
+footer{
+    height: 508px;
+    background-color:#f8f8f8;
+}
+
+#main-footer{
+    /* border:2px solid red; */
+    height: 508px;
+    width: 100%;
+    max-width: 1100px;
+    padding:48px 0 22px;
+    margin: auto;
+}
+
+#main-footer #photo-india-languge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#main-footer #photo-india-languge #footer-flex-boxes{
+    display: flex;
+    gap: 10px;
+}
+
+#main-footer #photo-india-languge #zomato-black-img img{
+    height: 28px;
+    width: 132px;
+}
+
+#main-footer #photo-india-languge .india-flage{
+    border: 1px solid #b5b5b5;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 110px;
+    height: 38px;
+    padding: 3px 7px;
+}
+
+#main-footer #photo-india-languge #flage{
+    /* border: 2px solid pink; */
+    background: url(indias-flage.avif)-141px 0px no-repeat;
+    width: 45px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 30px;
+    
+}
+
+#main-footer #photo-india-languge #india-for-flag-button span{
+    color: #1c1c1c;
+    font-size:18px ;
+    margin-right:5px;
+
+}
+
+#main-footer #photo-india-languge #input-language{
+    border: 1px solid #b5b5b5;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 110px;
+    height: 38px;
+    padding:7px;
+}
+
+#main-footer #photo-india-languge #input-language #language-footer span{
+    color:#1c1c1c;
+    font-size:18px ;
+    margin-right:5px;
+}
+
+#for-footer-part{
+    /* border: 2px solid aqua; */
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container{
+    /* border: 2px solid aqua; */
+    width: 20%;
+    height: 239px;
+}
+
+#for-footer-part .footer-head6{
+    margin-bottom:12px;
+}
+
+#for-footer-part .footer-head6 h6{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#for-footer-part #footer-para-all p{
+    color:#696969;
+    font-size: 15px;
+    margin: 5px 0 ;
+}
+
+.app-play-store-logo i{
+    margin-right: 3px;
+    margin-bottom: 25px;
+
+}
+
+#footer-Social-links .store-imge{
+    margin-bottom: 10px;
+    
+}
+
+hr{
+    border: 1px solid #cfcfcf;
+    margin:50px 0 8px;
+}
+
+#footer-paregraph{
+    margin:23px 0 13px;
+}
+
+#footer-paregraph p{
+    font-size: 15px;
+    margin:23px 0 13px;
+    color:#4f4f4f;
+    line-height: 17px;
+}
